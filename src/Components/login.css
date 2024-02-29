@@ -64,7 +64,7 @@ label p {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
-  justify-content: flex-start;
+
   font-size: 1rem;
   font-weight: 2;
 }
@@ -74,18 +74,18 @@ label p {
   width: 20rem;
 }
 
-.read{
-    color: black;
+.read {
+  color: black;
 }
-.terms{
-    display:flex;
-    align-items: center;
-    gap: 0.5rem;
-    width: 25rem;
+.terms {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 25rem;
 }
-.form-container button{
-    width: 10rem;
-    color: white;
-    background-color: black;
-    border-radius: 1rem;
+.form-container button {
+  width: 10rem;
+  color: white;
+  background-color: black;
+  border-radius: 1rem;
 }
