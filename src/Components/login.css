@@ -1,0 +1,91 @@
+.my-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.title {
+  width: 80%;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.first-name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  justify-content: flex-start;
+  font-size: 1rem;
+  font-weight: 2;
+  width: 10rem;
+}
+label p {
+  margin: 0;
+  color: red;
+  font-size: 0.5rem;
+}
+.last-name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  justify-content: flex-start;
+  font-size: 1rem;
+  font-weight: 2;
+  width: 10rem;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  justify-content: flex-start;
+  font-size: 1rem;
+  font-weight: 2;
+
+  width: 21rem;
+}
+.password {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  justify-content: flex-start;
+  font-size: 1rem;
+  font-weight: 2;
+  width: 10rem;
+}
+.confirm-password {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  justify-content: flex-start;
+  font-size: 1rem;
+  font-weight: 2;
+  width: 10rem;
+}
+.checkbox {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  justify-content: flex-start;
+  font-size: 1rem;
+  font-weight: 2;
+}
+.avertissement {
+  font-size: 0.5rem;
+  font-weight: 2;
+  width: 20rem;
+}
+
+.read{
+    color: black;
+}
+.terms{
+    display:flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 25rem;
+}
+.form-container button{
+    width: 10rem;
+    color: white;
+    background-color: black;
+    border-radius: 1rem;
+}
